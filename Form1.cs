@@ -32,13 +32,13 @@ namespace Pr4
       double PredelProizvedenia = Convert.ToDouble(textBox1.Text);
       int SumOrPro = 0;
       if (radioButton2.Checked) SumOrPro  = 1;
-      double Sum = 0, Izmenyaemaya, i;
+      double Sum = 0, Izmenyaemaya, i = 0;
 
       switch (SumOrPro)
       {
         case 0:
           Izmenyaemaya = (1 / (2 * i + Factorial(i)));
-          while (Izmenyaemaya>=GranicaSummy 
+          while (Izmenyaemaya>=GranicaSummy )
           break;
         case 1:
           break;
